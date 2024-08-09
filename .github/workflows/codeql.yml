@@ -45,8 +45,7 @@ jobs:
       matrix:
         include:
         - language: java
-          build-mode: none 
-           - name: Build Java
+        # build-mode: none
              run: |
                mvn clean package -f tools/deploy/module2/pom.xml
  
