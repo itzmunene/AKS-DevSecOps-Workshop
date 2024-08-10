@@ -1,1 +1,1 @@
-a
+echo "New content or changes" >> text.txt
